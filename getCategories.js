@@ -17,4 +17,4 @@ const argvs = process.argv;
 const ids = argvs[2].split(',').map(n => parseInt(n));
 const display = argvs[3];
 
-display ? getCategoriesByIds(ids, display) : getCategoriesByIds(ids, display);
+display ? getCategoriesByIds(ids, display) : getCategoriesByIds(ids);
