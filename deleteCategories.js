@@ -11,6 +11,7 @@ const deleteCategoryRange = (range) => {
     }
 }
 
+
 const argvs = process.argv;
 
 const range = [argvs[2], argvs[3]].map(n => parseInt(n));
