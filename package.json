@@ -1,0 +1,19 @@
+{
+  "name": "prestashopapi",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "Prestashop",
+    "Webservice",
+    "utils"
+  ],
+  "author": "Miguel Martín",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
